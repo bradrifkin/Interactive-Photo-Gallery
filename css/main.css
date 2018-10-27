@@ -32,6 +32,19 @@ input {
 	text-align: center;
 }
 
+.fancybox-caption {
+	font-size: 1.25em;
+}
+
+.fancybox-navigation .fancybox-button {
+	top: calc(50% - 90px);
+}
+
+.fancybox-button {
+	width: 75px;
+	height: 75px;
+}
+
 
 /*=======================
 	Media Queries
@@ -52,6 +65,19 @@ input {
 
 	input {
 		width: 45%;
+	}
+
+	.fancybox-caption {
+		font-size: 1em;
+	}
+
+	.fancybox-navigation .fancybox-button {
+		top: calc(50% - 50px);
+	}	
+
+	.fancybox-button {
+		width: 44px;
+		height: 44px;
 	}
 }
 
